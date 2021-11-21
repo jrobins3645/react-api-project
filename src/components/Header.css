@@ -1,0 +1,34 @@
+.Header {
+  background-image: url("../header-background-mobile.png");
+}
+
+.Header a {
+  font-family: "Anton", sans-serif;
+  text-decoration: none;
+  color: #f2fdff;
+}
+
+.Header h1 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.Header .BucketAttributionContainer {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0;
+  padding: 60px 20px 0px 20px;
+}
+
+.Header a:hover,
+.nav-link:hover {
+  color: #627f86;
+}
+
+@media screen and (min-width: 768px) {
+  .Header {
+    background-image: url("../header-background.png");
+  }
+}

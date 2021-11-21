@@ -1,0 +1,16 @@
+.Home .EventList {
+  padding: 0px 10px;
+}
+
+.Home .h2Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.Home h2 {
+  font-family: "Anton", sans-serif;
+  color: #f2fdff;
+  font-size: xx-large;
+}

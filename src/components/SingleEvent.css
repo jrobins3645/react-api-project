@@ -1,0 +1,75 @@
+.eventImage {
+  display: none;
+}
+
+.Event {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border-bottom: 1px solid #dbcbd880;
+}
+
+.Event .td1 {
+  width: 0px;
+}
+.Event .td2 {
+  width: 30%;
+  text-align: center;
+}
+.Event .td3 {
+  width: 20%;
+  text-align: center;
+}
+.Event .td4 {
+  width: 20%;
+  text-align: center;
+}
+.Event .td5 {
+  width: 20%;
+  text-align: center;
+}
+.Event .td6 {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Event :link {
+  text-decoration: none;
+  color: #dbcbd8;
+}
+
+.Event :visited {
+  color: #71949d;
+}
+
+.Event .detailsLink:hover {
+  color: #627f86;
+}
+
+.Event h4 {
+  margin: 5px;
+  font-family: "Nunito", sans-serif;
+}
+
+.Event h3 {
+  margin: 5px;
+  font-family: "Anton", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .eventImage {
+    display: block;
+    height: 100px;
+    width: 150px;
+  }
+
+  .Event .td1 {
+    width: 150px;
+  }
+}

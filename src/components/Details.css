@@ -1,0 +1,68 @@
+.Details {
+  background-color: #101935;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Details h2 {
+  color: #9ad4d6;
+  text-decoration: none;
+  margin: 15px;
+  font-family: "Anton", sans-serif;
+}
+
+.Details .detailsImage {
+  height: 250px;
+  margin: 25px;
+}
+
+.Details .date-time {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.Details .date-time h4 {
+  margin: 0px 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+.Details h4 {
+  color: #dbcbd8;
+  font-family: "Nunito", sans-serif;
+}
+
+.Details h4 a {
+  color: #9ad4d6;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+
+.Details .back-home {
+  position: absolute;
+  left: 0;
+  margin: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 1000;
+  text-decoration: none;
+  color: #dbcbd8;
+}
+
+.Details .back-home:hover {
+  color: #627f86;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Details .purchase:hover {
+  color: #627f86;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* {"Cyber Grape":"#564787"
+    "Languid Lavender":"#dbcbd8"
+    "Azure X 11 Web Color":"#f2fdff"
+    "Powder Blue":"#9ad4d6"
+    "Oxford Blue":"#101935"} */

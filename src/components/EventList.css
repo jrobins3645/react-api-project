@@ -1,0 +1,18 @@
+.EventList {
+  background-color: #101935;
+  color: #dbcbd8;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.EventList .eventTable {
+  table-layout: auto;
+  width: 100%;
+}
+
+/* name: Cyber Grape, hex: #564787
+name: Languid Lavender, hex: #dbcbd8
+name: Powder Blue, hex: #9ad4d6
+name: Azure, hex: #f2fdff
+name: Oxford Blue, hex: # */

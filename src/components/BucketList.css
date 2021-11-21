@@ -1,0 +1,19 @@
+.BucketList .back-home {
+  position: absolute;
+  left: 0;
+  margin: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 1000;
+  text-decoration: none;
+  color: #dbcbd8;
+}
+
+.BucketList .back-home:hover {
+  color: #627f86;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.BucketList .eventList {
+  padding-top: 10px;
+}
